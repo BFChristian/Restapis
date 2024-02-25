@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const clienteController = require('../controllers/clienteController');
 const productosController = require('../controllers/productosController');
+const pedidosController = require('../controllers/pedidosController');
 const { get } = require("mongoose");
 
 module.exports = function(){
